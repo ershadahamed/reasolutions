@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - REA Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .service-card {
+            padding-top: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px; /* Space between rows */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+            transition: transform 0.2s; /* Smooth transition on hover */
+            height: 350px; /* Fixed height */
+        }
+        .service-card:hover {
+            transform: scale(1.05); /* Scale up on hover */
+        }
+        .service-card img {
+            max-height: 100px; /* Logo height */
+            object-fit: contain; /* Maintain aspect ratio */
+            margin-bottom: 10px; /* Space between logo and title */
+        }
+        .service-card h5 {
+            color: #087773; /* Bootstrap danger color */
+        }
+
+        .blog-post {
+            border: 1px solid #dee2e6; /* Border color */
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+            margin-bottom: 20px; /* Space between posts */
+        }
+    </style>
+</head>
+<body>
+    <header class="teal text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3">REA Solutions</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row justify-content-center g-4"> <!-- Added gap between columns -->
+            <div class="col-md-4">
+                <div class="card service-card text-center">
+                    <!-- <img src="images/cctv.jpg" class="card-img-top" alt="Low Voltage Services"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Low Voltage Services</h5>
+                        <ul class="">
+                            <li>LV Cabling</li>
+                            <li>Generator Set</li>
+                            <li>Electrical Switchboard</li>
+                            <li>Busbar Trunking System</li>
+                            <li>Power and Lighting System</li>
+                            <li>Lightning Protection & Earthing System</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card text-center">
+                    <!-- <img src="images/cctv.jpg" class="card-img-top" alt="Extra Low Voltage Services"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Extra Low Voltage Services</h5>
+                        <ul class="">
+                            <li>CCTV</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card text-center">
+                    <!-- <img src="images/cctv.jpg" class="card-img-top" alt="Information & Communications Technology"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Information & Communications Technology</h5>
+                        <ul class="">
+                            <li>Network System</li>
+                            <li>Structure Cabling</li>
+                            <li>Telephone System</li>
+                            <li>Key Phone System</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-center mb-4">Latest Blog Posts</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="blog-post">
+                    <h5 class="blog-title">Understanding LV Cabling</h5>
+                    <p class="blog-content">An overview of low voltage cabling, its applications, and importance in modern electrical systems.</p>
+                    <a href="#" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-post">
+                    <h5 class="blog-title">Benefits of Generator Sets</h5>
+                    <p class="blog-content">Explore the advantages of using generator sets for backup power and continuous operations.</p>
+                    <a href="#" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-post">
+                    <h5 class="blog-title">CCTV for Security</h5>
+                    <p class="blog-content">Learn how CCTV systems can enhance security in residential and commercial properties.</p>
+                    <a href="#" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer class="fixed-bottom py-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <span>&copy; 2024 REA Solutions</span>
+            <div>
+                <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-light me-3"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="text-light"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <span>Contact: +6 06 850 7777</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

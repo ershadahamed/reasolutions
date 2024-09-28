@@ -1,0 +1,46 @@
+body {
+    padding-bottom: 60px; /* Space for the fixed footer */
+}
+
+.teal{
+    background-color: #087773; /* Light background */
+}
+
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #087773; /* Light background */
+    padding: 15px 0; /* Add padding to the footer */
+    color: white    ;
+}
+
+.footer-content {
+    padding: 0 15px; /* Add horizontal padding to the footer content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    background: url('images/image.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0; /* Adjust as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.banner .container {
+    text-align: center;
+}
+
+.carousel-inner img {
+    max-height: 400px; /* Set a maximum height for the carousel images */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.card-img-top {
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
